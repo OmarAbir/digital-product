@@ -32,3 +32,34 @@
 .menu:hover{
     color: #FF0000;
 }
+
+/* banner section  */
+
+.banner-container{
+    height: 570px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/background.png),linear-gradient(45deg,#121212,#232323);
+}
+
+.banner-title{
+    font-size: 50px;
+}
+.banner-des{
+    font-size: 18px;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.banner-btn{
+    color: white;
+    background: #FF0000;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 400px;
+}
