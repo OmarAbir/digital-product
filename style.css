@@ -59,7 +59,34 @@
     padding: 15px;
     cursor: pointer;
 }
-
+.banner-btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ef9898;
+}
 .banner-img{
     width: 400px;
+}
+
+/* about section  */
+.about{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+   height: 550px;
+}
+.about-img{
+    width: 300px;
+}
+.about-title{
+    font-size: 30px;
+
+}
+.about-des{
+    margin: 20px 0px;
 }
